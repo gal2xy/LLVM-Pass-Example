@@ -26,4 +26,10 @@ cmake ..
 make
 ```
 
-详细过程可见https://gal2xy.github.io/2024/04/22/LLVM%20and%20OLLVM/LLVM-Pass%E7%BC%96%E5%86%99/#%E8%84%B1%E7%A6%BBllvm%E6%BA%90%E7%A0%81%E6%89%A7%E8%A1%8Cpass。
+Pass使用：
+
+```
+clang -Xclang -load -Xclang yourpass.so -flegacy-pass-manager testfile.cpp -o testfile.ll
+```
+
+详细过程可见https://gal2xy.github.io/2024/04/22/LLVM%20and%20OLLVM/LLVM-Pass%E7%BC%96%E5%86%99/#%E8%84%B1%E7%A6%BBllvm%E6%BA%90%E7%A0%81%E6%89%A7%E8%A1%8Cpass
