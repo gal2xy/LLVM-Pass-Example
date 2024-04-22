@@ -32,4 +32,4 @@ Pass使用：
 opt -load yourpass.so -yourpassparam testfile ...
 ```
 
-详细过程可见https://gal2xy.github.io/2024/04/22/LLVM%20and%20OLLVM/LLVM-Pass%E7%BC%96%E5%86%99/#4-2-%E8%84%B1%E7%A6%BB%E6%BA%90%E7%A0%81%E6%89%A7%E8%A1%8Cpass。
+详细过程可见https://gal2xy.github.io/2024/04/22/LLVM%20and%20OLLVM/LLVM-Pass%E7%BC%96%E5%86%99/#4-2-%E8%84%B1%E7%A6%BB%E6%BA%90%E7%A0%81%E6%89%A7%E8%A1%8Cpass
