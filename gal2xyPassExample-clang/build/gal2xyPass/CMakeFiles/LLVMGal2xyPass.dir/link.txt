@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wl,-rpath-link,  -Wl,--gc-sections -shared  -o LLVMGal2xyPass.so CMakeFiles/LLVMGal2xyPass.dir/namePass.cpp.o CMakeFiles/LLVMGal2xyPass.dir/logPass.cpp.o  -Wl,-rpath,"\$ORIGIN/../lib:/home/gal2xy/Desktop/llvm-project-llvmorg-14.0.6/build/./lib" 
